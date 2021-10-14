@@ -688,6 +688,41 @@ body {
   fill: #ffffff;
 }
 
+.subscribe {
+  padding-left: 93px;
+  padding-top: 12px;
+}
+
+.subscribe-input {
+  width: 358px;height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+padding: 15px 16px;
+background-color: transparent;
+}
+
+.subscribe-btn {
+  margin-left: 12px;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+padding: 10px 29px;
+align-items: center;
+justify-content: center;
+display: inline-flex;
+}
+
+.footer-subscribe-icon {
+  width: 24px;height: 24px;
+  margin-left: 10px;
+
+}
+
 .backdrop {
   position: fixed;
   width: 100vw;
