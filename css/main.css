@@ -4,6 +4,11 @@
   --accent-color: #2196f3;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
 p,
 h1,
 h2,
@@ -24,8 +29,6 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.03em;
   background: #ffffff;
 }
 
@@ -350,7 +353,7 @@ body {
   color: var(--accent-color);
 }
 
-.logo-color-black {
+.logo_color_black {
   color: #000000;
 }
 
@@ -362,7 +365,7 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.header-link {
+.nav__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -371,12 +374,12 @@ body {
   position: relative;
 }
 
-.header-link:hover, .header-link:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-contacts {
+.header__link-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -387,7 +390,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-contacts:hover, .link-contacts:focus {
+.header__link-contacts:hover, .header__link-contacts:focus {
   color: var(--accent-color);
 }
 
@@ -396,20 +399,20 @@ body {
   align-items: center;
 }
 
-.header-links {
+.nav__links {
   display: flex;
   align-items: center;
 }
 
-.nav-item:not(:first-child) {
+.nav__item:not(:first-child) {
   margin-left: 50px;
 }
 
-.nav-item:first-child {
+.nav__item:first-child {
   margin-left: 95px;
 }
 
-.header-contacts {
+.header__contacts {
   margin-left: auto;
   display: flex;
   align-items: center;
@@ -420,13 +423,13 @@ body {
   align-items: center;
 }
 
-.link-mail {
+.header__link-mail {
   width: 100%;
   height: 100%;
   fill: currentColor;
 }
 
-.mail-icon {
+.header__mail-icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -443,7 +446,7 @@ body {
   margin-right: 10px;
 }
 
-.list-contacts:not(:first-child) {
+.header__item:not(:first-child) {
   margin-left: 50px;
 }
 
@@ -468,7 +471,7 @@ body {
   background-size: cover;
 }
 
-.hero-container {
+.hero__container {
   padding-top: 200px;
   padding-bottom: 200px;
 }

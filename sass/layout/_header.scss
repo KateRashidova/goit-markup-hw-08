@@ -8,7 +8,7 @@
   
   
   
-  .logo-color-black {
+  .logo_color_black {
     color: #000000;
   }
   
@@ -21,7 +21,7 @@
     border-bottom: 1px solid #ececec;
   }
   
-  .header-link {
+  .nav__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -36,7 +36,7 @@
   }
   
   
-  .link-contacts {
+  .header__link-contacts {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -58,12 +58,12 @@
     align-items: center;
   }
   
-  .header-links {
+  .nav__links {
     display: flex;
     align-items: center;
   }
   
-  .nav-item {
+  .nav__item {
     &:not(:first-child) {
     margin-left: 50px;}
     &:first-child {
@@ -73,7 +73,7 @@
   }
   
   
-  .header-contacts {
+  .header__contacts {
     margin-left: auto;
     display: flex;
     align-items: center;
@@ -84,13 +84,13 @@
     align-items: center;
   }
   
-  .link-mail {
+  .header__link-mail {
     width: 100%;
     height: 100%;
     fill: currentColor;
   }
   
-  .mail-icon {
+  .header__mail-icon {
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -107,7 +107,7 @@
     margin-right: 10px;
   }
   
-  .list-contacts {&:not(:first-child) {
+  .header__item {&:not(:first-child) {
     margin-left: 50px;
   }}
   
