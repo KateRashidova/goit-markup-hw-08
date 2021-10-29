@@ -1,4 +1,4 @@
-.container-benefits {
+.benefits__container {
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
@@ -9,16 +9,16 @@
     justify-content: center;
   }
   
-  .benefit-icon {
+  .benefits__icon {
     width: 70px;
     height: 70px;
   }
   
-  .benefits-list {
+  .benefits__list {
     display: flex;
   }
   
-  .benefits-item {
+  .benefits__item {
   &:not(:last-child) {
     margin-right: 30px;
   }}
@@ -39,7 +39,7 @@
     color: #212121;
   }
   
-  .benefits-text {
+  .benefits__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

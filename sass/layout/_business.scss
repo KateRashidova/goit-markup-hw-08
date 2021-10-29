@@ -2,27 +2,27 @@
     padding-bottom: 94px;
   }
   
-  .business-title {
+  .business__title {
     margin-bottom: 50px;
   }
   
-  .business-list {
+  .business__list {
     display: flex;
     margin-left: -30px;
     margin-top: -30px;
   }
   
-  .business-item {
+  .business__item {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
   }
   
-  .business-top-wrapper {
+  .business__top-wrapper {
     position: relative;
   }
   
-  .business-top-text {
+  .business__top-text {
     position: absolute;
     width: 100%;
     background-color: rgba(47, 48, 58, 0.8);
