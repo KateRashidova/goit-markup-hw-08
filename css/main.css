@@ -381,6 +381,7 @@ body {
   top: 0;
   left: 0;
   background-color: #ffffff;
+  z-index: 999;
   padding: 10px 15px 0 40px;
   display: flex;
   justify-content: space-between;
