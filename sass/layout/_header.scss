@@ -83,12 +83,7 @@
   }
   margin-left: auto;
   display: flex;
-    //   @media screen and (min-width: 768px) {
-  //         flex-direction: column;
-  //   }
-  //   @media screen and (min-width: 1200px) {
-  //     flex-direction: column;
-  // }
+ 
 }
 
 .header__item + .header__item {
@@ -107,11 +102,6 @@
 
   
 }}
-
-// .contacts {
-//   // display: flex;
-//   // align-items: center;
-// }
 
 
 
@@ -138,12 +128,6 @@
   margin-right: 10px;
 }
 
-// .header__item {
-  
-// //   &:not(:first-child) {
-// //     margin-left: 50px;
-// //   }
-// }
 
 .current {
   &::after {

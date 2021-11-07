@@ -381,7 +381,7 @@ body {
   top: 0;
   left: 0;
   background-color: #ffffff;
-  z-index: 999;
+  z-index: 1;
   padding: 10px 15px 0 40px;
   display: flex;
   justify-content: space-between;
@@ -1244,7 +1244,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 60px 74px 60px 61px;
+    padding: 60px 0;
   }
 }
 
@@ -1265,6 +1265,19 @@ body {
   .footer__content {
     justify-content: left;
     width: 730px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__contacts-block {
+    padding-left: 61px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__contacts-block {
+    width: 231px;
+    padding-left: 0;
   }
 }
 
@@ -1321,8 +1334,15 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (min-width: 768px) {
+  .social-block {
+    padding-right: 74px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .social-block {
+    padding-right: 0;
     margin-left: 70px;
     margin-right: 93px;
   }
